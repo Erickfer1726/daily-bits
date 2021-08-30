@@ -1,0 +1,63 @@
+html {
+    min-height: 100%;
+    position: flex;
+  }
+
+body{
+    background: #000000;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFE;
+}
+#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+}
+
+#iniciar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    
+}
+
+#iniciar h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 45px;
+    color: #FFFFFE;
+}
+
+#iniciar button {
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;  
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    width: 500px;
+    height: 70px;
+    background:#ff0077
+}
+#iniciar p {
+    text-align: center;
+    font-size: 25px;
+    line-height: 25px; 
+    margin-top: 15px;
+}
+#email {
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 4px;
+    width: 90%;
+    font-size: 16px;
+    line-height: 20px;
+}
+#iniciar a { 
+    color:rgb(0, 172, 77)
+}

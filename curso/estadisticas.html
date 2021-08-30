@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/estadisticas.css">
+    <title>estadisticas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="flex" id="sectitle">
+            <h2>Estadísticas</h2>
+            <p>Los últimos 7 días</p>
+        </div>
+        <div class="flex">
+            <div class="flex2"> 
+                <p>Tiempo de estudio (horas)</p>
+                <input type="number readonly" value="1" id="horasjugadas">
+            </div>
+            <div class="flex2"> 
+                <p>Respuestas contestadas</p>
+                <input type="number readonly" value="50" id="totalcontestadas">
+            </div>
+            <div class="flex2"> 
+                <p>Respuestas correctas</p>
+                <input type="number readonly" value="30" id="respuestascorrectas">
+            </div>
+            <div class="flex2"> 
+                <p>Respuestas incorrectas</p>
+                <input type="number readonly" value="10" id="respuestasincorrectas">
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <a href="../curso/index.html" class="footitem" id="home">
+            <img src="../multimedia/home.png" id="home" alt="">
+        </a>
+        <a href="../curso/estadisticas.html" class="footitem" id="estadisticas">
+            <img src="../multimedia/estadisticas.png" id="estadisticas" alt="">
+        </a>
+        <a href="../curso/perfil.html" class="footitem" id="perfil">
+            <img src="../multimedia/perfil.png" id="perfil" alt="">
+        </a>
+    </footer>
+    <script src="../js/estadisticas.js"></script>
+</body>
+</html>
